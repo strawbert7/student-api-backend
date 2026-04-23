@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student API Backend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .endpoint {
+            background: #f0f0f0;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #3498db;
+            font-family: monospace;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .status {
+            background: #2ecc71;
+            color: white;
+            padding: 10px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎓 Student Management API</h1>
+        <p>FastAPI Backend with Supabase PostgreSQL</p>
+    </div>
+
+    <div class="section">
+        <h2>API Status</h2>
+        <p><span class="status">✓ Live and Running</span></p>
+        <p>Visit: <a href="http://student-api-backend-hqe2.onrender.com/docs" 
+target="_blank">http://student-api-backend-hqe2.onrender.com/docs</a></p>
+    </div>
+
+    <div class="section">
+        <h2>API Endpoints</h2>
+        <h3>Students Resource</h3>
+        <div class="endpoint">GET /api/students</div>
+        <p>Get all students</p>
+        
+        <div class="endpoint">GET /api/students/{id}</div>
+        <p>Get a specific student by ID</p>
+        
+        <div class="endpoint">POST /api/students</div>
+        <p>Create a new student</p>
+        
+        <div class="endpoint">PUT /api/students/{id}</div>
+        <p>Update a student</p>
+        
+        <div class="endpoint">DELETE /api/students/{id}</div>
+        <p>Delete a student</p>
+    </div>
+
+    <div class="section">
+        <h2>Documentation Links</h2>
+        <ul>
+            <li><a href="http://student-api-backend-hqe2.onrender.com/docs" 
+target="_blank">Swagger UI</a></li>
+            <li><a href="http://student-api-backend-hqe2.onrender.com/redoc" 
+target="_blank">ReDoc</a></li>
+            <li><a href="https://github.com/strawbert7/student-api-backend" 
+target="_blank">GitHub Repository</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Tech Stack</h2>
+        <ul>
+            <li>Python 3.9+</li>
+            <li>FastAPI 0.104</li>
+            <li>Supabase (PostgreSQL)</li>
+            <li>Render (Hosting)</li>
+        </ul>
+    </div>
+</body>
+</html>
